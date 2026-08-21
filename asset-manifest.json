@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/JETSHOOT/static/css/main.89d0ac6b.css",
+    "main.js": "/JETSHOOT/static/js/main.d2776042.js",
+    "static/media/member4.png": "/JETSHOOT/static/media/member4.666001a3994fc8dcb2fb.png",
+    "static/media/member2.png": "/JETSHOOT/static/media/member2.cf0d4bccab2cbb55a55c.png",
+    "static/media/member1.png": "/JETSHOOT/static/media/member1.eefc8691c214ed997ab4.png",
+    "static/media/member6.png": "/JETSHOOT/static/media/member6.5897582a3be2d7db14be.png",
+    "static/media/background.png": "/JETSHOOT/static/media/background.536341ead251f5ab4226.png",
+    "static/media/member3.png": "/JETSHOOT/static/media/member3.1d9e127dc477120bb834.png",
+    "static/media/shreyas.png": "/JETSHOOT/static/media/shreyas.726b9406686a4628b339.png",
+    "static/media/img.png": "/JETSHOOT/static/media/img.5dd4fc29ceceb6a2ac04.png",
+    "static/media/member5.jpeg": "/JETSHOOT/static/media/member5.bc48fde52b0cd3a0f2d8.jpeg",
+    "static/media/pic.jpeg": "/JETSHOOT/static/media/pic.0dad00946117ac854c43.jpeg",
+    "index.html": "/JETSHOOT/index.html",
+    "main.89d0ac6b.css.map": "/JETSHOOT/static/css/main.89d0ac6b.css.map",
+    "main.d2776042.js.map": "/JETSHOOT/static/js/main.d2776042.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89d0ac6b.css",
+    "static/js/main.d2776042.js"
+  ]
+}
