@@ -276,7 +276,19 @@ image: member6,
   
 <div
   className="content-bg"
-  style={{ backgroundImage: `url(${pic})` }}
+style={{
+  backgroundImage: `
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(${pic})
+  `,
+  backgroundSize: "cover",
+  backgroundPosition: "center top",
+  backgroundRepeat: "no-repeat",
+  backgroundAttachment: "fixed"
+}}
 >
   <section id="about" className="about-section">
 
