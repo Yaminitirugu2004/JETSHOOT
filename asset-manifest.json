@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b1b5591.css",
-    "main.js": "/static/js/main.fa80221a.js",
-    "static/media/member4.png": "/static/media/member4.666001a3994fc8dcb2fb.png",
-    "static/media/member2.png": "/static/media/member2.cf0d4bccab2cbb55a55c.png",
-    "static/media/member1.png": "/static/media/member1.eefc8691c214ed997ab4.png",
-    "static/media/member6.png": "/static/media/member6.5897582a3be2d7db14be.png",
-    "static/media/background.png": "/static/media/background.536341ead251f5ab4226.png",
-    "static/media/member3.png": "/static/media/member3.1d9e127dc477120bb834.png",
-    "static/media/img.png": "/static/media/img.99db59766340c9324be3.png",
-    "static/media/shreyas.png": "/static/media/shreyas.726b9406686a4628b339.png",
-    "static/media/member5.jpeg": "/static/media/member5.bc48fde52b0cd3a0f2d8.jpeg",
-    "static/media/pic.jpeg": "/static/media/pic.0dad00946117ac854c43.jpeg",
-    "index.html": "/index.html",
-    "main.7b1b5591.css.map": "/static/css/main.7b1b5591.css.map",
-    "main.fa80221a.js.map": "/static/js/main.fa80221a.js.map"
+    "main.css": "/JETSHOOT/static/css/main.f08c8110.css",
+    "main.js": "/JETSHOOT/static/js/main.cf6f1ef0.js",
+    "static/media/member4.png": "/JETSHOOT/static/media/member4.666001a3994fc8dcb2fb.png",
+    "static/media/member2.png": "/JETSHOOT/static/media/member2.cf0d4bccab2cbb55a55c.png",
+    "static/media/member1.png": "/JETSHOOT/static/media/member1.eefc8691c214ed997ab4.png",
+    "static/media/member6.png": "/JETSHOOT/static/media/member6.5897582a3be2d7db14be.png",
+    "static/media/background.png": "/JETSHOOT/static/media/background.536341ead251f5ab4226.png",
+    "static/media/member3.png": "/JETSHOOT/static/media/member3.1d9e127dc477120bb834.png",
+    "static/media/img.png": "/JETSHOOT/static/media/img.99db59766340c9324be3.png",
+    "static/media/shreyas.png": "/JETSHOOT/static/media/shreyas.726b9406686a4628b339.png",
+    "static/media/member5.jpeg": "/JETSHOOT/static/media/member5.bc48fde52b0cd3a0f2d8.jpeg",
+    "static/media/pic.jpeg": "/JETSHOOT/static/media/pic.0dad00946117ac854c43.jpeg",
+    "index.html": "/JETSHOOT/index.html",
+    "main.f08c8110.css.map": "/JETSHOOT/static/css/main.f08c8110.css.map",
+    "main.cf6f1ef0.js.map": "/JETSHOOT/static/js/main.cf6f1ef0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1b5591.css",
-    "static/js/main.fa80221a.js"
+    "static/css/main.f08c8110.css",
+    "static/js/main.cf6f1ef0.js"
   ]
 }
