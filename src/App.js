@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import logo from "./img.png";
+import pic from "./pic.jpeg";
 import shreyas from "./shreyas.png";
 import member1 from "./member1.png";
 import member2 from "./member2.png";
@@ -31,6 +32,7 @@ import {
 } from "firebase/firestore";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
   /* =========================
      STATES
@@ -182,45 +184,55 @@ image: member6,
   
       {/* NAVBAR */}
 
-      <nav className="navbar">
+<nav className="navbar">
 
-        <img
-          src={logo}
-          alt="JetShoot Logo"
-          className="logo"
-        />
+  <img
+    src={logo}
+    alt="JetShoot Logo"
+    className="logo"
+  />
 
-        <ul className="nav-links">
+  <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
 
-          <li>
-            <a href="#home">HOME</a>
-          </li>
+    <li>
+      <a href="#home" onClick={() => setMenuOpen(false)}>
+        HOME
+      </a>
+    </li>
 
-          <li>
-            <a href="#about">ABOUT</a>
-          </li>
+    <li>
+      <a href="#about" onClick={() => setMenuOpen(false)}>
+        ABOUT
+      </a>
+    </li>
 
-          <li>
-            <a href="#services">SERVICES</a>
-          </li>
+    <li>
+      <a href="#services" onClick={() => setMenuOpen(false)}>
+        SERVICES
+      </a>
+    </li>
 
-          <li>
-            <a href="#plans">PLANS</a>
-          </li>
+    <li>
+      <a href="#plans" onClick={() => setMenuOpen(false)}>
+        PLANS
+      </a>
+    </li>
 
-          <li>
-            <a href="#feedback">FEEDBACK</a>
-          </li>
+    <li>
+      <a href="#feedback" onClick={() => setMenuOpen(false)}>
+        FEEDBACK
+      </a>
+    </li>
 
-        </ul>
-<a href="#contact">
-  <button className="nav-btn">
-    Contact Us
-  </button>
-</a>
+  </ul>
 
-      </nav>
+  <a href="#contact" className="contact-link">
+    <button className="nav-btn">
+      Contact Us
+    </button>
+  </a>
 
+</nav>
       {/* HERO SECTION */}
 
       <section id="home" className="hero">
@@ -260,13 +272,17 @@ image: member6,
 
       </section>
 
-      {/* ABOUT */}
-      <div className="content-bg">
-      <section id="about" className="about-section">
+     {/* ABOUT */}
+  
+<div
+  className="content-bg"
+  style={{ backgroundImage: `url(${pic})` }}
+>
+  <section id="about" className="about-section">
 
-        <h2 className="section-title">
-          About Us
-        </h2>
+    <h2 className="section-title">
+      About Us
+    </h2>
 
         <h3 className="about-title">
           Turning Every Moment Into
@@ -779,9 +795,9 @@ image: member6,
       <h3>Get In Touch</h3>
 
       <p>📍 Hyderabad, Vijayawada, Guntur, Rajahmundry, Vizag, Bangalore.</p>
-      <p>📞Imran: +91 9959845639</p>
-      <p>📞Sriram: +91 7993349990</p>
-      <p>📞Sharu: +91 8885553237</p>
+      <p>📞Sriram: +917993349990</p>
+      <p>📞Imran: +919959845639</p>
+      <p>📞Sharu: +918885553237</p>
       <p>📧 contact@jetshoot.in</p>
       <p>🌐 jetshoot.in</p>
     </div>
